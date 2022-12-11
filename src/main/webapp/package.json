@@ -6,10 +6,15 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "dev:quarkus":"vite build --config vite.config.dev.js --watch --emptyOutDir",
-    "dev:quarkusWatch":"vite build --config vite.config.dev.js --watch --emptyOutDir"
+    "dev:quarkus": "vite build --config vite.config.dev.js --watch --emptyOutDir",
+    "dev:quarkusWatch": "vite build --config vite.config.dev.js --watch --emptyOutDir"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.2.1",
+    "@fortawesome/free-brands-svg-icons": "^6.2.1",
+    "@fortawesome/free-regular-svg-icons": "^6.2.1",
+    "@fortawesome/free-solid-svg-icons": "^6.2.1",
+    "@fortawesome/vue-fontawesome": "^3.0.0-5",
     "pinia": "^2.0.28",
     "vue": "^3.2.45",
     "vue-router": "^4.1.6"
