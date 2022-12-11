@@ -5,8 +5,20 @@ module.exports = {
   // override vscode settings
   // Notice: It only affects the settings used by Vetur.
   settings: {
-    "vetur.useWorkspaceDependencies": true,
-    "vetur.experimental.templateInterpolationService": true
+    'vetur.completion.autoImport': false,
+    'vetur.experimental.templateInterpolationService': false,
+    'vetur.validation.interpolation': false,
+    'vetur.validation.template': false,
+    'vetur.validation.templateProps': false,
+    'vetur.validation.style': false,
+    'vetur.validation.script': false,
+    'vetur.format.enable': false,
+    'vetur.ignoreProjectWarning': true,
+    'vetur.languageFeatures.codeActions': false,
+    'vetur.languageFeatures.semanticTokens': false,
+    'vetur.languageFeatures.updateImportOnFileMove': false,
+    'vetur.trace.server': 'off',
+    'vetur.underline.refValue': false,
   },
   // **optional** default: `[{ root: './' }]`
   // support monorepos

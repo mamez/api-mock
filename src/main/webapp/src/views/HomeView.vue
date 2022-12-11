@@ -1,9 +1,13 @@
+<template>
+  <AdminBody title="Home">
+        <h1>prueba</h1>
+  </AdminBody>
+</template>
+
 <script setup>
-import TheWelcome from '../components/TheWelcome.vue'
+import AdminBody from '../components/layaut/AdminBody.vue';
 </script>
 
-<template>
-  <main>
-    <TheWelcome />
-  </main>
-</template>
+<style>
+
+</style>
